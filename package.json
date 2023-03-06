@@ -1,0 +1,19 @@
+{
+  "name": "rust-in-frontend",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.40.3",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "@slidev/types": "^0.40.3",
+    "vite": "^4.1.4"
+  },
+  "devDependencies": {
+    "@iconify-json/ic": "^1.1.13"
+  }
+}
