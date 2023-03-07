@@ -1,24 +1,18 @@
-# Rust 在不同领域的具体应用案例
+---
+transition: slide-up
+---
 
-<div class="text-sm">
+# Rust 在前端领域的应用与实践
 
-- **操作系统、嵌入式系统、网络服务、游戏引擎**：
+- 桌面应用开发：Rust 可以用于开发跨平台和性能优异的桌面应用，例如：
+  - [tauri](https://tauri.app/)：一个使用 Rust 和 Web 技术（HTML/CSS/JS）开发轻量级和安全的桌面应用框架，可以打包成小于 1 MB 的二进制文件
+  - iced：一个使用 Rust 开发简洁和响应式的图形用户界面（GUI）框架，支持 WebAssembly 和原生平台
 
-  Rust 可以用于编写高性能、可靠、安全的系统级别代码，包括操作系统内核、嵌入式系统、网络服务和游戏引擎等。
-
-- **Web 开发**：
-
-  Rust 提供了一些高性能的 Web 框架，包括 Rocket、Actix-web 和 Warp 等，可以用于编写高性能、可靠、安全的 Web 应用程序。
-
-- **工具开发**：
-
-  Rust 编译器、Cargo 和 Rustfmt 等工具是 Rust 开发生态系统中不可或缺的一部分，它们可以用于编译、构建和格式化 Rust 代码，提高开发效率。
-
-- **数据科学**：
-
-  Rust 提供了一些高性能的数据操作和分析库，包括 Polars、DataFusion 和 TensorBase 等，可以用于处理大规模的数据集和分布式计算
-
-</div>
+- NodeJS：Rust 可以用于开发与 NodeJS 集成或替代的模块或应用，例如：
+  - neon：一个使用 Rust 开发并与 NodeJS 进行互操作的框架，可以提升 NodeJS 应用的性能和安全性
+  - [deno](https://deno.land/)：一个使用 Rust 和 TypeScript 开发的新一代 NodeJS 替代品，提供了更现代化和安全化的 API 和特性
+  - [napi-rs](https://napi.rs/)：一个使用 Rust 开发并与 NodeJS 进行互操作的框架，可以利用 NodeJS 的 N-API 接口来编写高性能的原生模块
+  - [yew](https://github.com/yewstack/yew)：一个使用 Rust 和 WebAssembly 开发单页应用（SPA）的框架，类似于 React，支持组件化和虚拟 DOM
 
 <!--
 1. 操作系统：Rust 在操作系统领域的应用包括 Redox OS、Tock OS 等。Redox OS 是一个完全用 Rust 开发的操作系统，其目标是成为安全、稳定、分布式的操作系统。Tock OS 是一个面向 IoT 设备的操作系统，它使用 Rust 开发，提供了一种可靠的嵌入式应用程序开发方式。

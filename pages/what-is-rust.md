@@ -13,11 +13,11 @@ Rust 是一门多范式、编译型、系统级编程语言。
 
 Rust 设计目标是提供**内存安全**、**并发友好**、**高性能**、**跨平台**等特性。
 
-Rust 被广泛用于开发操作系统、嵌入式系统、网络服务、游戏引擎等领域 <Link to="14" title="^1" />。
+Rust 被广泛用于开发操作系统、嵌入式系统、网络服务、游戏引擎等领域。
 
 ::right::
 
-下面是一个简单的 Rust 代码示例: [<carbon-play-filled-alt class="text-sm" />](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=c7d5c2f6e40556859484c307ac5357ea)
+一个简单的 Rust 代码示例: [<carbon-play-filled-alt class="text-sm" />](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=c7d5c2f6e40556859484c307ac5357ea)
 
 ```rust
 fn main() {
